@@ -7,21 +7,28 @@
 		h1{
 		color:red;
 			}
-		p{
-		color:pink;
-		}
 		
 		</style>
 	</head>
 		<body>
-			<h1 id="demo"></h1>
-			<p id="quotes"></p>
+		<h1>Atomic Habits</h1>
+			<p id="demo"></p>
+			
 			<script>
-				document.getElementById("demo").innerHTML="Atomic Habits";
-				document.getElemtntById("quotes").innerHTML="It's is easy to overestimate the importance of one defining moment and underestimate the value of making small improvements on a daily basis.";
+				const person={
+				firstName:"Louis",
+				lastName:"Lie",
+				id: 4111056020,
+				age: 19,
+				address: Earth68,
+				};
 				
-				
+				document.getElementById("demo").innerHTML =person.firstName + " is " + person.age + " years old.";
+				document.getElementById("demo").innerHTML =person.firstName + "'s id is " + person.id +" and his address is: "+ person.address;
 			</script>
 		</body>
 		
-</html>
+</html> 
+
+
+
